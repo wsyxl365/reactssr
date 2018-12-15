@@ -2,7 +2,7 @@
 import React from "react";
 
 const Home = () => {
-    return <div className="haha"><span>我是span</span><h1>welcome to home</h1></div>
+    return <div className="haha"><span>我是yxl-------ll我爱秀dsfsdfdf秀sdfsdf</span><h1>welcome to home</h1></div>
 }
 
 // module.exports = {
