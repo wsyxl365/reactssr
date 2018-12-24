@@ -1,7 +1,7 @@
 //const express = require('express');
 import express from "express";
 const app = express();
-import Home from "./containers/Home";
+import Home from "../containers/Home";
 import React from 'react';
 import {  renderToString } from "react-dom/server";
 const content = renderToString(<Home />);
