@@ -18,7 +18,7 @@ app.use(express.static("public"));
 app.get('/', (req, res) => res.send(`
     <html>
         <head>
-            <title>ssr自撸框架</title>
+            <title>ssr自撸框架1</title>
         </head>
         <body>
             <div id="root">${content}</div>
