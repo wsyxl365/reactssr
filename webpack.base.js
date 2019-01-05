@@ -15,6 +15,9 @@ module.exports = {
                             }
                         }] //env 打包的时候根据环境去做适配 兼容各种浏览器最新的2个版本
                     ],
+                    plugins: [
+                        ["@babel/plugin-proposal-decorators",  { "legacy": true }]
+                    ]
                 }
             }
         ]
